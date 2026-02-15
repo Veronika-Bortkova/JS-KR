@@ -39,7 +39,8 @@ form{
 }
 #inCorrectFormat{
     margin: 0 auto 30px auto;
-    color: #d30c0c;
+    color: #f41919;
+    font-weight: 500;
 }
 #divLabelInput{
     display: flex;
@@ -79,7 +80,15 @@ button{
 #buttonAdd{
     margin-right: 70px;
 }
-
+button:hover{
+    color: #000000;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.57);
+    transition: 0.2s;
+}
+button:active{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
 #wrapperOutputFieldButtons{
     height: 200px;
     margin: 0 auto;
