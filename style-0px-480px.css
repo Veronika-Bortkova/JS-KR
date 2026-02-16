@@ -46,7 +46,7 @@
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 250px;
+    height: 400px;
     gap: 5px;
 }
 #wrapperButtons {
@@ -63,6 +63,7 @@
         background: #ffffff;
         border: 2px solid #b6b6b6;
         border-radius: 3px;
+        height: 300px;
     }
 
     #delete{
