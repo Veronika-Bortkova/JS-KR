@@ -42,6 +42,7 @@
     }
     #inCorrectFormat, #deleteTextForAndroid>p{
         font-size: 14px;
+        width: auto;
     }
     #inCorrectFormat{
         margin: 0 auto 10px auto;
