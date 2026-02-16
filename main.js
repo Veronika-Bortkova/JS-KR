@@ -7,7 +7,6 @@ let btns = document.getElementsByTagName("button");
 for (const btn of btns) {
     btn.addEventListener("touchstart", () => {// настройки вида кнопок при нажатии прописанные в css срабатывают не во всех браузерах, поэтому добавляю здесь
         btn.style.transform = "scale(0.8)";
-        // btn.style.backgroundColor ="#82c6e8";
     });
     btn.addEventListener("touchend", () => {
         btn.style.transform = "scale(1)";
