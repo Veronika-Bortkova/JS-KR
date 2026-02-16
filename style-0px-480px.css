@@ -13,11 +13,12 @@
     }
     h1{
         margin: 0 auto 10px auto;
-        padding-top: 10px;
+        padding-top: 0;
     }
     form {
         width: 300px;
         display: block;
+        margin: 10px auto 5px auto;
     }
     #divLabelInput{
         width: 300px;
