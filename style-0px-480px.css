@@ -13,6 +13,7 @@
     }
     h1{
         margin: 0 auto 10px auto;
+        padding-top: 10px;
     }
     form {
         width: 300px;
@@ -24,7 +25,9 @@
 }
 
     #buttonAdd{
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-right: 0;
+        width: 60px;
     }
     form input::placeholder {
         font-size: 20px;
@@ -35,13 +38,13 @@
     input{
         width: 300px;
         font-size: 20px;
-        height: 25px;
+        height: 40px;
     }
     #inCorrectFormat, #deleteTextForAndroid>p{
         font-size: 14px;
     }
     button {
-        font-size: 14px;
+        font-size: 18px;
     }
 #wrapperOutputFieldButtons{
     display: flex;
@@ -72,7 +75,7 @@
         margin-left: 115px;
     }
     option{
-        font-size: 14px;
+        font-size: 18px;
     }
     #deleteText{
         display: none;
