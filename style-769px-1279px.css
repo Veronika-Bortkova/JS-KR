@@ -1,227 +1,39 @@
-/*@media screen and (min-width: 769px) and (max-width: 1279px) {*/
+@media screen and (min-width: 769px) and (max-width: 1279px) {
 
-/*    body {*/
-/*        font-size: 16px;*/
-/*    }*/
-
-
-/*    .wrapper {*/
-/*        width: 740px;*/
-/*    }*/
-
-/*    h1, h4 {*/
-/*        width: 670px;*/
-/*    }*/
-
-/*    form, #inCorrectFormat {*/
-/*        width: 670px;*/
-
-/*    }*/
-
-
-/*    form input::placeholder {*/
-/*        font-size: 20px;*/
-/*    }*/
-
-/*    input{*/
-/*        height: 35px;*/
-/*        font-size: 20px;*/
-/*    }*/
-/*    #wrapperOutputFieldButtons {*/
-/*        width: 670px;*/
-/*    }*/
-/*    option{*/
-/*        font-size: 18px;*/
-/*    }*/
-/*    #deleteTextForAndroid{*/
-/*        display: none;*/
-/*    }*/
-/*}*/
-
-
-
-
-/*@media screen and (min-width: 769px) and (max-width: 1279px){*/
-
-/*    body {*/
-/*        font-size: 16px;*/
-/*    }*/
-/*    .wrapper {*/
-/*        width: 440px;*/
-/*        padding: 30px;*/
-/*    }*/
-/*    h1, h4 {*/
-/*        width: 370px;*/
-/*    }*/
-/*    form, #inCorrectFormat {*/
-/*        width: 370px;*/
-
-/*    }*/
-/*    form input::placeholder {*/
-/*        font-size: 20px;*/
-/*    }*/
-/*    #divLabelInput, #inCorrectFormat{*/
-/*        width: 220px;*/
-/*    }*/
-/*    #inCorrectFormat{*/
-/*        margin: 0 0 30px 5px;*/
-/*    }*/
-/*    input{*/
-/*        width: 220px;*/
-/*        font-size: 20px;*/
-/*    }*/
-/*    #buttonAdd{*/
-/*        margin-right: 70px;*/
-/*    }*/
-/*    input{*/
-/*        height: 40px;*/
-/*        font-size: 20px;*/
-/*    }*/
-/*    #wrapperOutputFieldButtons {*/
-/*        width: 370px;*/
-/*        height: 290px;*/
-/*    }*/
-/*    #outputField {*/
-/*        width: 220px;*/
-/*        height: 100%;*/
-/*    }*/
-/*    button {*/
-/*        padding: 5px 5px;*/
-/*    }*/
-/*    option{*/
-/*        font-size: 16px;*/
-/*    }*/
-/*    #deleteText{*/
-/*        display: none;*/
-/*    }*/
-/*    #deleteTextForAndroid{*/
-/*        display: block;*/
-/*        width: 150px;*/
-/*        font-size: 14px;*/
-/*        margin-top: -10px;*/
-/*        color: #5c5c5c;*/
-/*    }*/
-/*    #deleteTextForAndroid>p{*/
-/*        text-align: center;*/
-/*    }*/
-/*    #texForFieldAndroid {*/
-/*        color: #5c5c5c;*/
-/*        font-size: 16px;*/
-/*        display: block;*/
-/*        margin-left: 5px;*/
-/*        width: 220px;*/
-/*        text-align: justify;*/
-/*    }*/
-/*}*/
-
-*@media screen and (min-width: 769px) and (max-width: 1279px){
     body {
         font-size: 16px;
     }
+
+
     .wrapper {
-        width: 320px;
-        padding: 10px;
-        margin: 10px auto;
+        width: 740px;
     }
 
     h1, h4 {
-        width: 300px;
-    }
-    #textForAndroid {
-        color: #5c5c5c;
-        font-size: 16px;
-        display: block;
-        width: 300px;
-        text-align: justify;
-    }
-    h1{
-        margin: 0 auto 10px auto;
-        padding-top: 0;
-    }
-    form {
-        width: 300px;
-        display: block;
-        margin: 10px auto 5px auto;
-    }
-    #divLabelInput{
-        width: 300px;
+        width: 670px;
     }
 
-    #buttonAdd{
-        margin-top: 10px;
-        margin-right: 0;
-        width: 80px;
+    form, #inCorrectFormat {
+        width: 670px;
+
     }
+
+
     form input::placeholder {
         font-size: 20px;
     }
-    #divLabelInput{
-        width: 300px;
-    }
+
     input{
-        width: 300px;
+        height: 35px;
         font-size: 20px;
-        height: 40px;
     }
-    #inCorrectFormat, #deleteTextForAndroid>p{
-        font-size: 14px;
-        width: auto;
-    }
-    #inCorrectFormat{
-        margin: 0 auto 10px auto;
-    }
-
-    button {
-        font-size: 18px;
-    }
-    #wrapperOutputFieldButtons{
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        height: 350px;
-        gap: 5px;
-    }
-    #wrapperButtons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: start;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 5px;
-    }
-    #outputField{
-        width: 300px;
-        background: #ffffff;
-        border: 2px solid #b6b6b6;
-        border-radius: 3px;
-        height: 220px;
-    }
-
-    #delete{
-        margin-top: 10px;
-        margin-left: 115px;
+    #wrapperOutputFieldButtons {
+        width: 670px;
     }
     option{
         font-size: 18px;
     }
-    #deleteText{
+    #deleteTextForAndroid{
         display: none;
     }
-    #deleteTextForAndroid{
-        display: block;
-        width: 150px;
-        font-size: 14px;
-        margin: -5px 0 0 70px;
-        color: #5c5c5c;
-    }
-    #deleteTextForAndroid>p {
-        text-align: center;
-    }
-    #texForFieldAndroid {
-        color: #5c5c5c;
-        font-size: 16px;
-        display: block;
-    }
 }
-
