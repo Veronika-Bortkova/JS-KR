@@ -37,7 +37,7 @@ h4, #textForAndroid{
 form{
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
     color: #5c5c5c;
     margin: 20px auto 5px auto;
 
