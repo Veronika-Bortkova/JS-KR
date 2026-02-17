@@ -18,7 +18,7 @@ body{
     padding: 30px;
 
 }
-h1,h4, form, #wrapperOutputFieldButtons,#inCorrectFormat{
+h1,h4, form, #wrapperOutputFieldButtons,#inCorrectFormat, #textForAndroid{
     width: 640px;
 }
 
@@ -26,8 +26,13 @@ h1{
     padding-top: 20px;
     margin: 0 auto 25px auto;
 }
-h4{
+h4, #textForAndroid{
     margin: 0 auto 5px auto;
+}
+#texForFieldAndroid {
+    /*color: #5c5c5c;*/
+    /*font-size: 16px;*/
+    display: none;
 }
 form{
     display: flex;

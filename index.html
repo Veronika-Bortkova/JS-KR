@@ -24,13 +24,10 @@
     </form>
     <div id="inCorrectFormat" ><!--  Enter the information in the correct format--></div>
     <h4>Name/Value Pair List</h4>
+    <p id="texForFieldAndroid">(Tap the field below &#8595; to view the full list and select pairs)</p>
     <div id="wrapperOutputFieldButtons">
         <div id="outputField">
-            <select id="myList" multiple>
-                <option disabled selected>Tap here to view the list and choose pairs</option><!-- Создаю фиктивный option - мнимый "плейсхолдер" для селекта, для мобильных браузеров где select multiple отображается как пустое поле с выпадающим списком (Атрибуты делают этот option недоступным для выбора пользователем, выбранным по умолчанию пока не выбраны другие)-->
-            </select>
-
-
+            <select id="myList" multiple></select>
         </div>
         <div id="wrapperButtons">
             <button id="SortByName">Sort by Name</button>
